@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bd_proyectomvcModelStoreContainer" CdmEntityContainer="bd_proyectomvcEntities">
+    <EntitySetMapping Name="carros">
+      <EntityTypeMapping TypeName="bd_proyectomvcModel.carros">
+        <MappingFragment StoreEntitySet="carros">
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="placa" ColumnName="placa" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="velocidad" ColumnName="velocidad" />
+          <ScalarProperty Name="kilometraje" ColumnName="kilometraje" />
+          <ScalarProperty Name="marca" ColumnName="marca" />
+          <ScalarProperty Name="modelo" ColumnName="modelo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,68 @@
+﻿@model ProyectoFinalMVC.Models.carros
+
+<div>
+    <h4>carros</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.modelo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.modelo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.marca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.marca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.kilometraje)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.kilometraje)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.velocidad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.velocidad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.placa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.placa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.precio)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit") |
+    @Html.ActionLink("Back to List", "Index")
+</p>

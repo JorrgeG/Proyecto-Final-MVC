@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bd_proyectomvcModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="bd_proyectomvcEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="carros" EntityType="bd_proyectomvcModel.carros" />
+  </EntityContainer>
+  <EntityType Name="carros">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="modelo" Type="Int32" />
+    <Property Name="marca" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="kilometraje" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="velocidad" Type="Int32" />
+    <Property Name="estado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="placa" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="precio" Type="Int32" />
+  </EntityType>
+</Schema>
